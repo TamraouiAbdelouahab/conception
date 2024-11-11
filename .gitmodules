@@ -1,6 +1,0 @@
-[submodule "Gestion_des_apprenants"]
-	path = Gestion_des_apprenants
-	url = https://github.com/samiaBoug/AnalyseEtConceptionSoli-lms
-[submodule "Gestion_appreciation"]
-	path = Gestion_appreciation
-	url = https://github.com/bardichoussama/CC1-UX.git
