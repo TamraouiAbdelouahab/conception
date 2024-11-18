@@ -1,0 +1,15 @@
+@startuml
+top to bottom direction
+
+actor Responsable_de_formation as C
+' actor Administrateur as A
+
+rectangle Système {
+    usecase "gestion des formateurs" as Gf
+    usecase "Authentification" as Auth
+}
+
+C -- Gf
+Auth ..> Gf : <<extend>>  
+
+@enduml
